@@ -1,0 +1,359 @@
+/* Barra de navegacion */
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Allura", cursive;
+  font-size: 2.5em;
+  color: white;
+}
+
+nav {
+  background-color: #b5cccd;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navegacion {
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+}
+
+.navegacion a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+}
+
+ul.navegacion a:hover {
+  color: gray;
+}
+
+.instagram {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.facebook {
+  width: 28px;
+  height: 28px;
+}
+
+.sociales {
+  width: 90px;
+  height: 30px;
+  display: flex;
+}
+
+/* Fin barra navegacion */
+
+/* Inicio del body */
+
+.spray {
+  width: 100%;
+}
+
+.textospray {
+  font-family: "Allura", cursive;
+  font-size: 4em;
+  width: 700px;
+  transform: translate(500px, -400px);
+  color: white;
+}
+
+.subtitulocolecciones {
+  color: #b5cccd;
+  font-family: "Allura", cursive;
+  font-size: 80px;
+  text-align: center;
+  margin-top: 60px;
+  text-shadow: 1px 1px 2px rgb(91, 88, 88);
+}
+
+.colecciones img {
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
+  box-shadow: 0px 2px 5px 2px #999;
+}
+.colecciones {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.colecciones h3 {
+  font-family: "Allura", cursive;
+  color: white;
+  font-size: 50px;
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
+  background-color: #b5cccd;
+  opacity: 0;
+  padding-top: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contenedor {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.colecciones h3:hover {
+  opacity: 0.8;
+  transition: 0.6s cubic-bezier(0.09, 0.3, 0.2, 0.23);
+}
+
+.corte {
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* Seccion para suscribirse */
+
+.contenedorsubs {
+  display: flex;
+  justify-content: center;
+}
+
+.infonl {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.sobre {
+  height: 180px;
+}
+
+.contenedorsubs h3 {
+  font-family: "Allura", cursive;
+  font-size: 58px;
+  color: #f6d5cb;
+  text-shadow: 1px 1px 2px rgb(91, 88, 88);
+  margin-top: 40px;
+}
+
+.contenedorsubs p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 30px;
+  margin-top: 20px;
+  color: rgb(85, 85, 85);
+}
+
+.formulariosub {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formulariosub input {
+  border-radius: 0.5em;
+  width: 20em;
+  height: 2em;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1em;
+}
+.formulariosub button {
+  margin-top: 10px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  background-color: #d8bab1;
+  border-radius: 6px;
+  padding: 5px 10px;
+  width: 50%;
+  border-color: transparent;
+}
+
+.formulariosub button:hover {
+  background-color: #a58278;
+}
+
+/* Seccion contacto -------------------------------------------------------*/
+
+.primerbloque {
+  display: flex;
+  flex-direction: column;
+}
+
+.frentetienda {
+  width: 40%;
+  margin: 40px 40px 40px 60px;
+  border-radius: 8px;
+}
+
+.acercade {
+  display: flex;
+  margin-top: 50px;
+}
+.acercade p {
+  margin: 100px 40px 40px 40px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 22px;
+  width: 40%;
+  color: rgb(85, 85, 85);
+}
+
+.mision {
+  display: flex;
+  justify-content: space-between;
+}
+
+.chicaentienda {
+  width: 40%;
+  margin: 40px 80px 40px 40px;
+  border-radius: 8px;
+}
+
+.mision p {
+  margin: 100px 40px 40px 60px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 22px;
+  width: 40%;
+  color: rgb(85, 85, 85);
+}
+
+.contacto p {
+  text-align: center;
+  margin: 50px auto;
+  background-color: #f6d5cb;
+  font-family: "Allura", cursive;
+  font-size: 50px;
+  color: white;
+  width: 100%;
+}
+
+/*-------------- Inicio de Footer-------------- */
+
+footer {
+  background-color: #b5cccd;
+  width: 100%;
+  height: 200px;
+  margin-top: 90px;
+  padding-top: 80px;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.1em;
+  list-style: none;
+}
+
+.marcaregistrada {
+  margin-bottom: 10px;
+  font-size: 1.8em;
+  font-family: "Allura", cursive;
+}
+
+/* Inicio formulario de contacto */
+
+.formulariocontacto {
+  margin: 0 auto;
+  width: 500px;
+  padding: 1em;
+  border: 5px solid rgba(187, 159, 159, 0.336);
+  border-radius: 1em;
+}
+
+form ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: rgb(114, 114, 114);
+}
+
+form li {
+  margin-top: 1em;
+}
+
+input,
+textarea {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1em;
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid rgba(187, 159, 159, 0.5);
+  border-radius: 6px;
+  color: rgb(85, 85, 85);
+}
+
+input:focus,
+textarea:focus {
+  border-color: rgb(53, 50, 50);
+}
+
+textarea {
+  vertical-align: top;
+  height: 15em;
+}
+
+label {
+  font-family: "Quicksand", sans-serif;
+  text-align: left;
+}
+
+.button button {
+  background-color: transparent;
+  border: 3px solid rgba(187, 159, 159, 0.5);
+  border-radius: 5px;
+  padding: 5px 20px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.15em;
+  color: #a58278;
+  margin-right: 50%;
+}
+
+.button button:hover {
+  background-color: #a58278;
+  color: #ffffff;
+  border: 3px solid #a58278;
+}
+
+/* Fin formulario de contacto */
+
+.textoshopping {
+  text-align: center;
+  font-family: "Allura", cursive;
+  font-size: 50px;
+  color: white;
+  background-color: #f6d5cb;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+
+.listashopping {
+  display: flex;
+}
+
+.listashopping img {
+  width: 100px;
+  margin-right: 8px;
+}
